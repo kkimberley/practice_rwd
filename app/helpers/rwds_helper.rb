@@ -1,0 +1,2 @@
+module RwdsHelper
+end
