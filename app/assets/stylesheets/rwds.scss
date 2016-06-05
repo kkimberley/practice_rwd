@@ -1,3 +1,54 @@
 // Place all the styles related to the rwds controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@media screen and (max-width: 480px) {
+
+// 如果使用者視窗寬度 <= 480px，將字體大小變為 16px
+
+.div1 {
+
+ font-size: 16px;
+ color: yellow;
+
+}
+
+}
+
+@media screen and (max-width: 768px) {
+
+// 如果使用者視窗寬度 <= 768px，將字體大小變為 20px
+
+.div1 {
+
+ font-size: 20px;
+ color: red;
+
+}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+// 如果使用者視窗寬度介於 768px ~ 992px，將字體大小變為 30px
+
+.div1 {
+
+ font-size: 30px;
+ color: blue;
+
+}
+
+}
+
+@media screen and (min-width: 1200px) {
+
+// 如果使用者視窗寬度 >= 1200px，將字體大小變為 40px
+
+.div1 {
+
+ font-size: 40px;
+ color: green;
+
+}
+
+}
